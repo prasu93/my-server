@@ -16,9 +16,9 @@ const server = http.createServer((req, res) => {
 // start listening
 // use the server console to tell user where to find the server
 // use backticks for template literals with embedded expressions
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`)
-})
+//server.listen(port, hostname, () => {
+//  console.log(`Server running at http://${hostname}:${port}/`)
+//})
 
 
 
